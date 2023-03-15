@@ -6,10 +6,10 @@ const aranciniIngredients = ["arborio rice", "chicken or vegetable broth", "Parm
 const noodleIngredients = ["noodles (e.g. ramen, soba, udon)", "soy sauce", "sesame oil", "rice vinegar", "garlic", "ginger", "green onions", "bean sprouts", "carrots", "broccoli", "mushrooms", "tofu", "chicken or beef (optional)", "vegetable oil for stir-frying"];
 
 
-document.getElementById('carbonaraBtn').addEventListener('click', () =>{generateLi(carbonaraIngredients, "carbonaraRecipe", "carbonaraSection")})
-document.getElementById('lasagnaBtn').addEventListener('click', () =>{generateLi(lasagnaIngredients, "lasagnaRecipe", "lasagnaSection")})
-document.getElementById('pizzaBtn').addEventListener('click', () =>{generateLi(pizzaIngredients, "pizzaRecipe", "pizzaSection")})
-document.getElementById('sushiBtn').addEventListener('click', () =>{generateLi(sushiIngredients, "sushiRecipe", "sushiSection")})
-document.getElementById('aranciniBtn').addEventListener('click', () =>{generateLi(aranciniIngredients, "aranciniRecipe", "aranciniSection")})
-document.getElementById('noodlesBtn').addEventListener('click', () =>{generateLi(noodleIngredients, "noodlesRecipe", "noodlesSection")})
+document.getElementById('carbonaraBtn').addEventListener('click', () =>{generateLi(carbonaraIngredients, "carbonaraRecipe", "carbonaraSection");})
+document.getElementById('lasagnaBtn').addEventListener('click', () =>{generateLi(lasagnaIngredients, "lasagnaRecipe", "lasagnaSection");})
+document.getElementById('pizzaBtn').addEventListener('click', () =>{generateLi(pizzaIngredients, "pizzaRecipe", "pizzaSection");})
+document.getElementById('sushiBtn').addEventListener('click', () =>{generateLi(sushiIngredients, "sushiRecipe", "sushiSection");})
+document.getElementById('aranciniBtn').addEventListener('click', () =>{generateLi(aranciniIngredients, "aranciniRecipe", "aranciniSection");})
+document.getElementById('noodlesBtn').addEventListener('click', () =>{generateLi(noodleIngredients, "noodlesRecipe", "noodlesSection");})
 
