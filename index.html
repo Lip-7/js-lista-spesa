@@ -12,14 +12,60 @@
 <body class="w-100 vh-100">
     <div class="container text-center pt-5">
         <h1 class="text-shadow mb-5rem">Choose what you want to cook today</h1>
-        <div id="chooseRecipe" class="dishes d-flex justify-content-center align-items-center">
-            <button id="carbonaraBtn" class="dash-btn">Carbonara</button>
+        <div id="chooseRecipe" class="dishes d-flex justify-content-center align-items-center flex-wrap gap-5 align-content-center">
+            <button id="carbonaraBtn" class="dash-btn"><span class="recipeTitle">Carbonara</span></button>
+            <button id="lasagnaBtn" class="dash-btn"><span class="recipeTitle">lasagna</span></button>
+            <button id="pizzaBtn" class="dash-btn"><span class="recipeTitle">pizza</span></button>
+            <button id="sushiBtn" class="dash-btn"><span class="recipeTitle">sushi</span></button>
+            <button id="aranciniBtn" class="dash-btn"><span class="recipeTitle">arancin*</span></button>
+            <button id="noodlesBtn" class="dash-btn"><span class="recipeTitle">Noodles</span></button>
         </div>
-        <div id="recipes-section" class="recipe mt-5 d-none">
+        <div id="carbonaraSection" class="recipe mt-5 d-none">
             <div class="d-flex justify-content-center align-items-center flex-column flex-wrap">
-                <h2 class="mb-4">Nice choose! That's that you have to buy:</h2>
-                <ul id="carbonaraRecipe">
+                <h2 class="mb-5">Nice choose! That's what you have to buy to prepare Carbonara:</h2>
+                <ul id="carbonaraRecipe" class="d-flex gap-5 flex-wrap">
                 </ul>
+                <button class="btn bg-info btn-dark mt-3"><a class="text-decoration-none text-white" href="/index.html">Choose another dash</a></button>
+            </div>
+        </div>
+        <div id="lasagnaSection" class="recipe mt-5 d-none">
+            <div class="d-flex justify-content-center align-items-center flex-column flex-wrap">
+                <h2 class="mb-5">Nice choose! That's what you have to buy to prepare Lasagna:</h2>
+                <ul id="lasagnaRecipe" class="d-flex gap-5 flex-wrap">
+                </ul>
+                <button class="btn bg-info btn-dark mt-3"><a class="text-decoration-none text-white" href="/index.html">Choose another dash</a></button>
+            </div>
+        </div>
+        <div id="pizzaSection" class="recipe mt-5 d-none">
+            <div class="d-flex justify-content-center align-items-center flex-column flex-wrap">
+                <h2 class="mb-5">Nice choose! That's what you have to buy to prepare Pizza:</h2>
+                <ul id="pizzaRecipe" class="d-flex gap-5 flex-wrap">
+                </ul>
+                <button class="btn bg-info btn-dark mt-3"><a class="text-decoration-none text-white" href="/index.html">Choose another dash</a></button>
+            </div>
+        </div>
+        <div id="sushiSection" class="recipe mt-5 d-none">
+            <div class="d-flex justify-content-center align-items-center flex-column flex-wrap">
+                <h2 class="mb-5">Nice choose! That's what you have to buy to prepare Sushi:</h2>
+                <ul id="sushiRecipe" class="d-flex gap-5 flex-wrap">
+                </ul>
+                <button class="btn bg-info btn-dark mt-3"><a class="text-decoration-none text-white" href="/index.html">Choose another dash</a></button>
+            </div>
+        </div>
+        <div id="aranciniSection" class="recipe mt-5 d-none">
+            <div class="d-flex justify-content-center align-items-center flex-column flex-wrap">
+                <h2 class="mb-5">Nice choose! That's what you have to buy to prepare Arancin*:</h2>
+                <ul id="aranciniRecipe" class="d-flex gap-5 flex-wrap">
+                </ul>
+                <button class="btn bg-info btn-dark mt-3"><a class="text-decoration-none text-white" href="/index.html">Choose another dash</a></button>
+            </div>
+        </div>
+        <div id="noodlesSection" class="recipe mt-5 d-none">
+            <div class="d-flex justify-content-center align-items-center flex-column flex-wrap">
+                <h2 class="mb-5">Nice choose! That's what you have to buy to prepare Noodles:</h2>
+                <ul id="noodlesRecipe" class="d-flex gap-5 flex-wrap">
+                </ul>
+                <button class="btn bg-info btn-dark mt-3"><a class="text-decoration-none text-white" href="/index.html">Choose another dash</a></button>
             </div>
         </div>
     </div>

@@ -22,3 +22,14 @@ function preventSubmitRefresh(form){
 function randomNumber(max) {
   return Math.round(Math.random() * (max - 1)) + 1;
 };
+function generateLi(listIngredients, listToAppend, toshow) {
+  let iterable = 0;
+  const ulDestination = document.getElementById(listToAppend);
+  while (iterable < listIngredients.length){
+      const ingredient = document.createElement('li');
+      ingredient.innerText = listIngredients[iterable];
+      ulDestination.appendChild(ingredient);
+      iterable++;
+  }
+  switchVisibility('chooseRecipe', toshow)
+};
